@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Votre première page web</title>
-    <!-- Vous pouvez intégrer votre fichier CSS ici -->
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
 
@@ -13,32 +13,37 @@
 
     <form action="https://fr.bab.la/dictionnaire/anglais-francais/learn-more" target="_blank" title="Apprend-en plus !" method="get">
 
-        <label><em>New </em>Plans now start at <b> $6.99.</b></label>
+        <label><em>  NEW! </em>Plans now start at <b> $6.99.</b></label>
 
-        <button type="submit" arget id="learn_more"> Learn More ></button>
+        <button type="submit" class="learn_more"> Learn More > </button>
         
     </form>
  
 </div>
 
-<div class="fond_film"> 
+<div class="fond_film">
     
-    <div> 
-       <button> <!-- LOGO NETFLIX --> </button>                
-    </div>
+    <div class="top_fond_film"> 
 
-    <div> 
-        <button> 
+        <div> 
+        <a href="Index.html" alt="Logo Netflix" method="get">                
+            <img src="Images/netflix-logo.png" title="Netflix"/>               
+        </a>
+        </div>
+        
+        <div class="boutonlangue"> 
+        <button class="button_english" class="right"> 
             English
         </button>
 
-        <button> 
+        <button class="button_sign" class="right"> 
             Sign In
         </button>
+        </div>
 
     </div>
 
-    <div>
+    <div class="txt_fond_film">
         <h1> 
             Unlimited movies, TV <br/>
             shows, and more.
@@ -54,26 +59,181 @@
 
     </div>
 
-    <div>
-        <input placeholder="Email address">
+    <div class="email">
+        <input class="placeholder_email" placeholder="Email address">
 
-        <button> Get Started > </button>
+        <button class="button_email"> Get Started > </button>
     </div>
 
 </div>
 
 <div class="TV">
 
-    <h2> 
-        Enjoy on your TV.
-    </h2>
+    <div class="txt_TV">
 
-    <h3>
-        Watch on Smart TVs, Playstation, Xbox,<br/>
-        Chromecast, Apple TV, Blu-ray players,<br/>
-        and more.
-    </h3>
+        <h2>
+            Enjoy on your TV.
+        </h2>
+        
+        <h3>
+            Watch on Smart TVs, Playstation, Xbox,<br/>
+            Chromecast, Apple TV, Blu-ray players,<br/>
+            and more.
+        </h3>
+        
+    </div>
+
+    <div>
+            <img src="Images/Image télé.png" alt="Image logo TV" title="Image Logo TV">
+    </div>
+
+</div>
+
+<div class="ecrans">
+
+    <div>
+            <img src="Images/Image écrans.png" alt="Image ecrans" title="Image écrans">
+    </div>
+
+    <div>
+        
+        <h2>
+            Watch everywhere.
+        </h2>
+        
+        <h3>
+            Stream unlimited movies and TV shows <br/>
+            on your phone, tablet, laptop, and TV <br/>
+            without paying more.
+        </h3>
+        
+    </div>
+
+
+</div> 
+
+<div class="kids"> 
+
+    <div class="txt_kids">
+
+        <h2>
+            Create profiles for kids.
+        </h2>
+        
+        <h3>
+            Send kids on adventures with their favorites <br/>
+            characters in a space made just for them -- <br/>
+            free with your membership.
+        </h3>
+        
+    </div>
+
+    <div>
+            <img src="Images/Image Kids.png" alt="Image logo kids" title="Image logo kids">
+    </div>
+
+</div>
+
+<div class="download"> 
+
+    <div class="img_dl">
+            <img src="Images/Image Download.png" alt="Image download" title="Image Download">
+    </div>
+
+    <div class="txt_download">
+
+        <h2>
+            Download your shows <br/>
+            to watch offline.
+        </h2>
+
+        <h3>
+            Only available on ad-free plans.
+        </h3>
+
+    </div>
+
 </div>
 
 </body>
+
+<footer>
+
+    <div>
+        <p> Questions? Call 1-844-505-2993</p>
+    </div>
+
+    <div class="liste1">
+
+        <ol>
+            <li><a href="#" target="_blank">FAQ</a></li>
+            
+            <li><a href="#" target="_blank">Investors Relations</a></li>
+            
+            <li><a href="#" target="_blank">Buy Gifts Cards</a></li>
+            
+            <li><a href="#" target="_blank">Cookie Preferences</a></li>
+            
+            <li><a href="#" target="_blank">Legal Notices</a></li>
+            
+        </ol>
+
+    </div>
+
+    <div class="liste2">
+
+        <ol>
+            <li><a href="#" target="_blank">Help Center</a></li>
+            
+            <li><a href="#" target="_blank">Jobs</a></li>
+            
+            <li><a href="#" target="_blank">Ways to Watch</a></li>
+            
+            <li><a href="#" target="_blank">Corporate Information</a></li>
+            
+            <li><a href="#" target="_blank">Only on Netflix</a></li>
+            
+        </ol>
+
+    </div>
+
+    <div class="liste3">
+
+        <ol>
+            <li><a href="#" target="_blank">Account</a></li>
+            
+            <li><a href="#" target="_blank">Netflix Shop</a></li>
+            
+            <li><a href="#" target="_blank">Terms of Use</a></li>
+            
+            <li><a href="#" target="_blank">Contact Us</a></li>
+            
+            <li><a href="#" target="_blank">Do Not Sell or Share My Personal<br/>Information</a></li>
+            
+        </ol>
+
+    </div>
+
+    <div class="liste4">
+
+        <ol>
+            <li><a href="#" target="_blank">Media Center</a></li>
+            
+            <li><a href="#" target="_blank">Redeem Gift Cards</a></li>
+            
+            <li><a href="#" target="_blank">Privacy</a></li>
+            
+            <li><a href="#" target="_blank">Speed Test</a></li>
+            
+        </ol>
+
+    </div>
+
+    <div class="boutonlangue"> 
+        <button> 
+            English
+        </button>
+    </div>
+
+</footer>
 </html>
